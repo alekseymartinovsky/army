@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<header>
+    <title>Армия</title>
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="style.css" />
+</header>
+<body>
+    <div id="root">
+        <div id="theme">
+            <div class="themeBlock">
+                <div class="text">
+                    Стиль
+                </div>
+                <label class="switch">
+                    <input type="checkbox" id="themeSwitch" checked>
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </div>
+        <div id="status">
+            <div id="before">
+                <div class="title">Скоро в армию...</div>
+                <div class="additionalInfo">P.s. не знаю радоваться или нет</div>
+            </div>
+            <div id="inProgress">
+                <div id="start">
+                    <div class="title">Ну вот, началось...</div>
+                    <div class="additionalInfo">Еду где-то по пути на службу</div>
+                </div>
+                <div id="kmb">
+                    <div class="title">КМБ, пришло время стать солдатом</div>
+                    <div class="additionalInfo">Интересно понравится или нет</div>
+                </div>
+                <div id="half">
+                    <div class="title">Служу...</div>
+                    <div class="additionalInfo">Походу время идет оч медленно</div>
+                </div>
+                <div id="afterHalf">
+                    <div class="title">Осталось меньше половины!</div>
+                    <div class="additionalInfo">P.s. удивлен что кто-то это видит</div>
+                </div>
+                <div id="lastWeek">
+                    <div class="title">Осталось меньше недели!!!</div>
+                    <div class="additionalInfo">Шок, сюда рельно ещё кто-то заходит?</div>
+                </div>
+            </div>
+            <div id="after">
+                <div class="title">А все, пора возвращаться в гражданскую жизнь (если прога не врет конечно)</div>
+                <div class="additionalInfo">P.s. читаю записки и планы годичной давности и снова в шоке</div>
+            </div>
+        </div>
+        <div id="timer">
+            <div class="timer__items">
+                <div class="timer__item timer__days">00</div>
+                <div class="timer__item timer__hours">00</div>
+                <div class="timer__item timer__minutes">00</div>
+                <div class="timer__item timer__seconds">00</div>
+            </div>
+        </div>
+        <div id="buttonBlock">
+            <div>Счет: <span id="countValue"></span></div>
+            <button onclick="addClick()">Кнопка</button>
+        </div>
+        <div id="footer">
+            Если Вы нашли баг, спасибо!!!
+            <span>(он не будет исправлен:))</span>
+        </div>
+    </div>
+</body>
+</html>
